@@ -1,5 +1,11 @@
 Namaste Food
 
+#Food Mantra
+It is web application resposible to deliver food
+
+#Checkout the Live Link
+https://food-mantra.netlify.app/
+
 /*
 -Header
  -Logo
