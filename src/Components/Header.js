@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Link, useParams } from "react-router-dom";
 import logo from "../../Assets/Logo.jpg";
+import Logo from "../../Assets/logo.svg"
 import useOnlineStatus from "../../Utils/useOnlineStatus";
 import { useContext } from "react";
 import UserContext from "../../Utils/UserContext";
@@ -18,8 +19,8 @@ const Header = () =>{
     return(
         <div className="header">
             <div className="logo-container">
-                {/* <Link to="/"><img alt="logo" src={logo} /></Link> */}
-                <Link to="/"><img alt="logo" src="https://media-assets.swiggy.com/portal/testing/seo-home/Group.svg" /></Link>
+                <Link to="/"><img alt="logo" src={Logo} /></Link>
+                {/* <Link to="/"><img alt="logo" src="https://media-assets.swiggy.com/portal/testing/seo-home/Group.svg" /></Link> */}
             </div>
             <div className="navbar">
                 <ul>

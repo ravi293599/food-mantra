@@ -92,7 +92,7 @@ const Body = () =>{
                     </div>
                 </div>
             } */}
-            <Slider />
+            {/* <Slider /> */}
             <TopRestaurant Topdata={topRestaurant} />
             <OnlineRestaurant Topdata={topRestaurant} title={onlineRestaurant?.card?.card?.title} />
         </div>

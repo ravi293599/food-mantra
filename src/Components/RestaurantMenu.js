@@ -13,7 +13,7 @@ import { IoIosSearch } from "react-icons/io";
 import { FaCircle,FaMapMarkerAlt } from "react-icons/fa";
 import { TbTriangleFilled } from "react-icons/tb";
 import { IoCloseOutline } from "react-icons/io5";
-import { Swiper, SwiperSlide } from 'swiper/react';
+// import { Swiper, SwiperSlide } from 'swiper/react';
 
 const RestaurantMenu = () =>{
     const[typeOfFood, setTypeOFFood] = useState(null);
