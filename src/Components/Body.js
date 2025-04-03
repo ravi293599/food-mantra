@@ -9,7 +9,7 @@ import WhatInYourMindCarousel from "../Components/WhatInYourMindCarousel"
 import OnlineRestaurant from "./OnlineRestaurant";
 import BestPlace from "./BestPlace";
 import Footer from "./Footer";
-import Slider from "./slider";
+// import Slider from "./slider";
 
 const Body = () =>{
     const[megaData, setMegaData] = useState([]);
