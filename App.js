@@ -1,19 +1,19 @@
 import React, { lazy, useEffect, useState } from "react";
 import ReactDOM from "react-dom/client"
-import Header from "./Components/Header";
-import Body from "./Components/Body";
-import Home from "./Pages/Home";
+import Header from "./src/Components/Header";
+import Body from "./src/Components/Body";
+import Home from "./src/Pages/Home";
 //import About from "./Pages/About";
-import Contact from "./Pages/Contact";
+import Contact from "./src/Pages/Contact";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
-import Error from "./Pages/Error";
-import RestaurantMenu from "./Components/RestaurantMenu";
-import UserContext from "../Utils/UserContext";
+import Error from "./src/Pages/Error";
+import RestaurantMenu from "./src/Components/RestaurantMenu";
+import UserContext from "./Utils/UserContext";
 import { Provider } from "react-redux";
-import appStore from "./Store/appStore";
-import Cart from "./Components/Cart";
+import appStore from "./src/Store/appStore";
+import Cart from "./src/Components/Cart";
 
-const About = lazy(() => import("./Pages/About"))
+const About = lazy(() => import("./src/Pages/About"))
 
 const AppLayout = () =>{
     const[userName, setUserName] = useState();
