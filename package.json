@@ -2,7 +2,7 @@
   "name": "namaste-food",
   "version": "1.0.0",
   "description": "A food delivery web app",
-  "main": "index.html",
+  "main": "App.js",
   "scripts": {
     "test": "jest",
     "start": "parcel index.html",
